@@ -26,3 +26,4 @@ pyperf >= 1.6.1
 greenlet >= 1.0
 
 -e .[test,docs]
+cryptography>=46.0.5 # not directly required, pinned by Snyk to avoid a vulnerability
